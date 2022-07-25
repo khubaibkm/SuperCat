@@ -1,0 +1,204 @@
+#title{
+    background-color: #40DFEF;
+    text-align: left;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1, h3, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h3{
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+em{
+    color: white;
+}
+
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0 18px;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.download{
+    margin: 25px 15px 15px 0;
+}
+
+.mobile{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 24%;
+}
+    
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-items{
+    padding: 5%;
+}
+
+.emote{
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    color: #B9F8D3;
+}
+
+.emote:hover{
+    color: #40DFEF;
+}
+
+#testimonials{
+    background-color: #B9F8D3;
+}
+
+.cat{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #B9F8D3;
+    padding-bottom: 4%;
+}
+
+.pres{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.price-box{
+    padding: 3% 2%;
+}
+
+.price-body{
+    border-left:1px solid rgb(185, 185, 185);
+    border-right:1px solid rgb(185, 185, 185);
+    border-bottom:1px solid rgb(185, 185, 185);
+}
+
+.price-head{
+    border-left:1px solid rgb(185, 185, 185);
+    border-right:1px solid rgb(185, 185, 185);
+    border-top:1px solid rgb(185, 185, 185);
+}
+
+#pricing{
+    
+    padding: 100px;
+}
+
+.pricing-head{
+    color: rgb(53, 53, 53);
+}
+
+#cta{
+    background-color: #40DFEF;
+    padding: 7% 15%;
+}
+
+.cta-h{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+#footer{
+    padding:7% 40% 15%;
+}
+
+.emot{
+    font-size: 2rem;
+    color: black;
+}
+
+.copy{
+    margin-top: 22%;
+}
+
+.temot:hover{
+    color: #1DA1F2;
+}
+.femot:hover{
+    color: #4267B2;
+}
+.iemot:hover{
+    color: #FD1D1D;
+}
+.memot:hover{
+    color: #006AFF;}
+
+
+.made{
+    color: black;
+    text-decoration: none;
+}
+
+.made:hover{
+    color: #40DFEF;
+    font-style: italic;
+}
+
+
+/* Media query */
+
+@media (max-width: 1028px){
+    .mobile{
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title{
+        text-align: center;
+    }
+}

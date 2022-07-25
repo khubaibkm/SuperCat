@@ -1,5 +1,5 @@
 #title{
-    background-color: #40DFEF;
+    background-color: #FF4646;
     text-align: left;
 }
 
@@ -84,15 +84,15 @@ em{
 .emote{
     font-size: 5rem;
     padding-bottom: 1rem;
-    color: #B9F8D3;
+    color: ##FF8585;
 }
 
 .emote:hover{
-    color: #40DFEF;
+    color: #FF4646;
 }
 
 #testimonials{
-    background-color: #B9F8D3;
+    background-color: ##FF8585;
 }
 
 .cat{
@@ -102,7 +102,7 @@ em{
 }
 
 #press{
-    background-color: #B9F8D3;
+    background-color: ##FF8585;
     padding-bottom: 4%;
 }
 
@@ -141,7 +141,7 @@ em{
 }
 
 #cta{
-    background-color: #40DFEF;
+    background-color: #FF4646;
     padding: 7% 15%;
 }
 
@@ -185,7 +185,7 @@ em{
 }
 
 .made:hover{
-    color: #40DFEF;
+    color: #FF4646;
     font-style: italic;
 }
 
